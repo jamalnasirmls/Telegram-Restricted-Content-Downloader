@@ -14,10 +14,9 @@ A Telegram bot designed to streamline the process of downloading restricted and 
 
 ## How it Works
 
-Copy any Telegram media link to your clipboard (e.g., https://t.me/TelegramTips/479).
+Copy any Telegram media link to your clipboard.
 The bot automatically detects the link and adds it to the queue.
-Once ready, press enter to download all queued media.
-To clear the queue, press r + enter.
+Once ready, press 'enter' to download all queued media.
 
 ## Example Interface
 
