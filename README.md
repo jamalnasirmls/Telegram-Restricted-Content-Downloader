@@ -5,8 +5,11 @@ A Telegram bot designed to streamline the process of downloading restricted and 
 ## Features
 
 📋 Clipboard Monitoring: Detects and adds Telegram media links automatically.
+
 📥 Restricted/Non-Restricted Downloads: Supports private and public content.
+
 ⏸ Queue Management: Collects links until you press enter to download.
+
 🔄 Reset: Clear the list anytime with r + enter.
 
 ## How it Works
