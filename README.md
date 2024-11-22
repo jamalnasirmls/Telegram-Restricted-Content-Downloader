@@ -62,6 +62,7 @@ API_HASH="YOUR_API_HASH"
 
 ```
 Replace the placeholders with your corresponding information.
+If you don't have these credentials, visit https://my.telegram.org/auth to obtain them.
 
 ## Usage
 
