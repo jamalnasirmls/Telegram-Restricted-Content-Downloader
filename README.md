@@ -19,17 +19,18 @@ To clear the queue, press r + enter.
 
 ## Example Interface
 
-![ ](./examples/#1.png)
-![ ](./examples/#2.png)
-![ ](./examples/#3.png)
-![ ](./examples/#4.png)
-![ ](./examples/#5.png)
-![ ](./examples/#6.png)
+![ ](./examples/1.png)
+![ ](./examples/2.png)
+![ ](./examples/3.png)
+![ ](./examples/4.png)
+![ ](./examples/5.png)
+![ ](./examples/6.png)
 
 # Requirements
 
 Ensure you have Python 3.8+ installed. Install the following dependencies:
 
+```bash
 pyaes==1.6.1
 pyperclip==1.9.0
 pyrotgfork==2.1.35
@@ -38,6 +39,7 @@ PyTgCrypto==1.2.6
 python-dotenv==1.0.1
 TgCrypto==1.2.5
 uvloop==0.19.0
+```
 
 ## Installation
 
