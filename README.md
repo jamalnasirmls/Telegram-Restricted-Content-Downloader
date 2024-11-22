@@ -2,6 +2,8 @@
 
 A Telegram bot designed to streamline the process of downloading restricted and non-restricted content from Telegram groups and channels. Just copy a media link to your clipboard, and the bot will automatically add it to a download queue. Once you're ready, press enter to start downloading.
 
+![ ](/example/screenshot.png)
+
 ## Features
 
 📋 Clipboard Monitoring: Detects and adds Telegram media links automatically.
