@@ -22,7 +22,7 @@ class Client():
     async def download_media(self, links: List[str]):
         try:
             for i, link in enumerate(links):
-                message = await self._get_message_by_link(link)
+                message = await self._get_media_by_link(link)
                 if not message: continue
 
                 def get_progress(current, total):
@@ -37,6 +37,28 @@ class Client():
         
         except Exception as e:
             print(f"Download process error: {e}")
+
+    async def _get_media_by_link(self, link: str):
+        if "/s/" in link: 
+            return await self._get_story_by_link(link)
+        else:
+            return await self._get_message_by_link(link)
+
+    async def _get_story_by_link(self, link: str):
+        try:
+            base = link.split("https://t.me/")[-1]
+            parts = base.split("/s/")
+            username = parts[0]
+            story_id = parts[1]
+
+            return await self.client.get_stories(
+                story_sender_chat_id=username,
+                story_ids=int(story_id)
+            )
+
+        except Exception as e:
+            print(f"Something went wrong while trying to get the story: {e}")
+
     
     async def _get_message_by_link(self, link: str):
         try:
