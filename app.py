@@ -11,7 +11,7 @@ from src.console import Console
 from src.exceptions import NoContinueException
 from src.client import Client
 
-links = []
+links = [https://t.me/c/2097728485/976/995]
 running = True
 last_text = ""
 
